@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+  <html lang="en" class="h-full w-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./output.css"/>
+    <script src="./main.js" defer></script>
+  </head>
+  <body class="h-full w-full bg-gradient-to-b from-slate-800 via-slate-900 to-black text-white">
+
+    <header class="bg-slate-900 shadow-md sticky top-0 z-50">
+      <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-400">Mi Portafolio</h1>
+        <ul class="hidden md:flex gap-8 text-lg">
+
+  <ul class="hidden md:flex gap-8 text-lg">
+    <li><a href="#inicio" class="hover:text-blue-400 transition" id="Inicio">Inicio</a></li>
+    <li><a href="#nosotros" class="hover:text-blue-400 transition" id="nosotros">¿Quiénes somos?</a></li>
+    <li><a href="#contacto" class="hover:text-blue-400 transition" id="contacto">Contáctanos</a></li>
+  </ul>
+
+        </ul>
+        <button class="md:hidden text-white hover:text-blue-400">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="contenedor p-8 gap-12 flex flex-col max-w-6xl mx-auto grid grid-cols-2 sm:grid grid-span-1">
+
+      <div class="card flex flex-col-reverse md:flex-row items-center gap-6 bg-slate-900 p-6 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-2xl sm:col-span-1   ">
+        <p>
+        Ingeniero en Finanzas con habilidades en innovación y negocios, con amplia
+  experiencia en análisis financiero y toma de decisiones estratégicas. con amplia
+  experiencia en el manejo y procesamiento de datos. Me destaco por brindar
+  servicios que permiten una toma de decisiones acertada, trabajando en equipo
+  para resolver problemas empresariales complejos. Deseo continuar
+  desarrollándome en un nuevo proyecto
+        </p>
+        <img src="./WhatsApp Image 2025-09-23 at 6.11.36 PM (1).jpeg" alt="Foto de perfil"
+          class="size-32 rounded-full shadow-md ring-4 ring-blue-500 hover:ring-pink-500 transition">
+      </div>
+
+      <div class="card flex flex-col-reverse md:flex-row items-center gap-6 bg-slate-900 p-6 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-2xl">
+        <p>
+        “Poseo sólidos conocimientos en HTML5, el lenguaje base de la web, lo que me permite estructurar páginas y aplicaciones de manera clara, semántica y accesible. Manejo etiquetas para crear encabezados, párrafos, listas, tablas, formularios e integración de multimedia. También aplico buenas prácticas de semántica, accesibilidad (WAI-ARIA) y organización del código, garantizando sitios bien optimizados, fáciles de mantener y preparados para trabajar junto a tecnologías como CSS, JavaScript y frameworks modernos.
+        </p>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.7rwMEjcw2fwJgJJivM6CVAHaHa"
+          alt="Logo HTML"
+          class="size-32 rounded-full shadow-md hover:rotate-6 transition duration-300">
+      </div>
+
+      <div class="card flex flex-col-reverse md:flex-row items-center gap-6 bg-slate-900 p-6 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-2xl">
+        <p>
+          “Cuento con experiencia en el uso de Tailwind CSS, un framework moderno y altamente eficiente para la creación de interfaces web. Manejo el diseño responsivo mediante utilidades de flexbox, grid y breakpoints, así como la personalización de tipografía, colores, espaciados y sombras. También sé implementar dark mode, animaciones y componentes reutilizables, logrando proyectos visualmente atractivos y optimizados sin necesidad de escribir CSS desde cero. Mi enfoque está en mantener un código limpio, escalable y productivo, lo que facilita el desarrollo ágil de aplicaciones web modernas.”
+        </p>
+        <img src="https://tse3.mm.bing.net/th/id/OIP.jAXBF5htliObhZLkt1cgygAAAA"
+          alt="Logo Tailwind"
+          class="size-32 rounded-full shadow-md hover:rotate-6 transition duration-300">
+      </div>
+
+      <div class="card flex flex-col-reverse md:flex-row items-center gap-6 bg-slate-900 p-6 rounded-xl shadow-lg transform transition hover:scale-105 hover:shadow-2xl">
+        <p>
+          “Cuento con experiencia en el uso de Power BI para la creación de tableros interactivos y reportes dinámicos que facilitan la toma de decisiones estratégicas. Domino la conexión y transformación de datos (ETL), modelado de información con DAX y la implementación de visualizaciones claras y efectivas. Además, aplico buenas prácticas de storytelling con datos, optimización del rendimiento en los dashboards y publicación en el servicio en la nube de Power BI para compartir información de manera segura y colaborativa. Mi objetivo es transformar datos complejos en información valiosa y accionable para los equipos de trabajo y la dirección.”
+        </p>
+        <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/11/power-bi-logo-freelogovectors.net_.png"
+          alt="Logo Power BI"
+          class="size-32 rounded-full shadow-md hover:rotate-6 transition duration-300">
+      </div>
+
+      <section id="contacto" class="col-span-2 flex items-center justify-center bg-slate-100 p-8 rounded-xl shadow-md">
+    <div class="w-full max-w-md bg-white rounded-2xl shadow-xl p-8">
+      <h2 class="text-2xl font-bold text-slate-800 mb-6 text-center">Formulario de Contacto</h2>
+      <form action="#" method="POST" class="space-y-5 grid grid-cols-1 gap-4">
+        <div>
+          <label for="nombre" class="block text-sm font-medium text-slate-700">Nombre</label>
+          <input type="text" id="nombre" name="name" required 
+            class="text-slate-700 mt-1 w-full px-4 py-2 border border-slate-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="correo" class="block text-sm font-medium text-slate-700">Correo Electrónico</label>
+          <input type="email" id="correo" name="email" required
+            class="text-slate-700 mt-1 w-full px-4 py-2 border border-slate-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-pink-500"/>
+        </div>
+        <div>
+          <label for="mensaje" class="block text-sm font-medium text-slate-700">Mensaje</label>
+          <textarea id="mensaje" name="message" rows="4" required
+            class="text-slate-700 mt-1 w-full px-4 py-2 border border-slate-300 rounded-xl focus:outline-none focus:ring-4 focus:ring-green-500"></textarea>
+        </div>
+        <button type="submit" id="btn-form-contacto"
+          class="w-full bg-gradient-to-r from-blue-600 to-pink-500 text-white py-2 px-4 rounded-xl font-semibold hover:opacity-90 transition">
+          Enviar
+        </button>
+      </form>
+    </div>
+  </section>
+  <footer class="flex justify-center items-center gap-6 bg-slate-900 p-6 mt-12 col-span-2">
+      <a href="./proyectos.html" class="text-blue-400 hover:underline">← ir a proyectos</a>
+      <p class="text-slate-400 text-sm">&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+  <body>
+
