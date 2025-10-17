@@ -18,3 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+let hamburguesa = document.getElementById("hamburguesa");
+let menu = document.getElementById("menu");
+hamburguesa.addEventListener("click", function() {
+    menu.classList.toggle("hidden");
+    hamburguesa.classList.add("hidden");    
+} );
+
