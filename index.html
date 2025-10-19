@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Portafolio</title>
     <link rel="stylesheet" href="./output.css"/>
-    <script src="./main.js" defer></script>
+    <script src="./main.js" defer type="module"></script>
   </head>
   <body class="h-full w-full bg-gradient-to-b from-slate-800 via-slate-900 to-black text-white">
 
@@ -15,21 +15,25 @@
         <ul class="hidden md:flex gap-8 text-lg">
 
   <ul class="hidden md:flex gap-8 text-lg">
+    
     <li><a href="#inicio" class="hover:text-blue-400 transition" id="Inicio">Inicio</a></li>
     <li><a href="#nosotros" class="hover:text-blue-400 transition" id="nosotros">¿Quiénes somos?</a></li>
     <li><a href="#contacto" class="hover:text-blue-400 transition" id="contacto">Contáctanos</a></li>
+    <li><a href="#lista-habilidades" class="hover:text-blue-400 transition" id="lista-habilidades">Habilidades</a></li>
     <button id="descargarCV" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold transition">
   Descargar CV
+  
 </button>
   </ul>
 
         </ul>
-        <button id="hamburguesa" class ="md:hidden text-white hover:text-blue-400">
+        <button id="hamburguesa" class ="md:hidden text-white hover:text-blue-400 flex justify-between items-center gap-2">
+          
           <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
           </svg>
         </button>
-        <ul id="menu" class="hidden"><li><a href="#inicio" class="hover:text-blue-400 transition" id="Inicio">Inicio</a></li>
+        <ul id="menu" class="hidden"><li><a href="#inicio" class="hover:text-blue-400 transition" id="Inicio sm:hidden lg:hidden">Inicio</a></li>
           <li><a href="#nosotros" class="hover:text-blue-400 transition" id="nosotros">¿Quiénes somos?</a></li>
           <li><a href="#contacto" class="hover:text-blue-400 transition" id="contacto">Contáctanos</a></li>
           <button id="descargarCV" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold transition">

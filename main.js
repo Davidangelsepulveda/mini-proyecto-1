@@ -1,3 +1,6 @@
+import { habilidades } from "./habilidades.js";
+import { mostrarHabilidades } from "./habilidades.js";
+
 let btnformcontacto = document.getElementById("btnformcontacto");
 btnformcontacto.addEventListener("click", function() {
     alert("Gracias por contactarnos, en breve nos comunicaremos con usted.");
@@ -24,4 +27,9 @@ hamburguesa.addEventListener("click", function() {
     menu.classList.toggle("hidden");
     hamburguesa.classList.add("hidden");    
 } );
+menu.addEventListener("click", function() {
+    menu.classList.add("hidden");
+    hamburguesa.classList.remove("hidden");    
+} );
+
 
